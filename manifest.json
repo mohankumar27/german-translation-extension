@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "German Translator",
+  "description": "This extension will translate highlighted word in current tab to german language",
+  "icons": {
+    "128": "icons/german128.png",
+    "48": "icons/german48.png",
+    "16": "icons/german16.png"
+  },
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icons/german16.png",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage", "activeTab", "http://*/*", "https://*/*"]
+}
